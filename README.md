@@ -105,10 +105,13 @@ services:
 docker pull nat236919/covid19-api:latest
 ```
 
-* Create a container and run
+* Create a container and run either of the following
 
 ```console
 docker run nat236919/covid19-api
+```
+```console
+docker run -p 80:80 nat236919/covid19-api
 ```
 
 ## How to use API (v2)
